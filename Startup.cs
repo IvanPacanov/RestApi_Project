@@ -34,7 +34,7 @@ namespace RestApi_Dicom
                 connStr));
             //Configuration.GetConnectionString("CommanderConnection")));
             services.AddTransient<ICommanderRepo, EFFProductRespository>();
-
+            services.AddHttpContextAccessor();
             services.AddControllers();            
             services.AddScoped<ICommanderRepo, SqlCommanderRepo>();
         }
@@ -57,6 +57,8 @@ namespace RestApi_Dicom
             {
                 endpoints.MapControllers();
             });
+
+            
         }
     }
 }
