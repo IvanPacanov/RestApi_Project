@@ -33,9 +33,9 @@ namespace RestApi_Dicom
              Host.CreateDefaultBuilder(args)
                  .ConfigureWebHostDefaults(webBuilder =>
                  {
-                     webBuilder.UseKestrel();
+                   //  webBuilder.UseKestrel();
                      webBuilder.UseContentRoot(Directory.GetCurrentDirectory());
-                     webBuilder.UseUrls("https://localhost:5000", "https://odin:5000", "https://192.168.1.100:5000");
+                     webBuilder.UseUrls("https://localhost:5000", "https://odin:5000", "https://192.168.43.179:5000");
                      webBuilder.UseIISIntegration();
                      webBuilder.UseStartup<Startup>();
                  }).UseDefaultServiceProvider(options =>

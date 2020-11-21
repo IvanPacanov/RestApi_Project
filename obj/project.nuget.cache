@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GINIw/uHys91NINuE8E6lEbdfI0NsKC2AlbS9ew/sWPQF/pY1cz7gf+emiq2c8ramUpvNftZDxXwEpR6lJRdyA==",
+  "dgSpecHash": "P2+YYk6s0+hfCZ+Me/LMLMiUh9J3HI1/BYyoAAzCeOfcZQfKYm5bR8paGePz0u/uzi4rDlVAmzwkVn1jPXWrDg==",
   "success": true,
-  "projectFilePath": "E:\\Projects\\Server_RestApi\\RestApiDicom\\RestApi_Dicom\\RestApi_Dicom.csproj",
+  "projectFilePath": "C:\\Users\\Mati\\Source\\Repos\\IvanPacanov\\RestApi_Project\\RestApi_Dicom.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mati\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Mati\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

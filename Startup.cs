@@ -36,7 +36,7 @@ namespace RestApi_Dicom
             services.AddTransient<ICommanderRepo, EFFProductRespository>();
             services.AddHttpContextAccessor();
             services.AddControllers();            
-            services.AddScoped<ICommanderRepo, SqlCommanderRepo>();
+            services.AddScoped<ICommanderRepo, MockCommanderRepo>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
