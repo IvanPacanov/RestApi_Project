@@ -15,5 +15,11 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="dodawanie">
+      <HintPath>C:\Users\Mati\Desktop\DLL\dodawanie\for_testing\dodawanie.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 
 </Project>
