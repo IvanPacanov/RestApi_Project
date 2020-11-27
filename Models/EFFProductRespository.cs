@@ -17,9 +17,14 @@ namespace RestApi_Dicom.Models
 
         public IEnumerable<Command> GetAppCommands => commander.Commands;
 
+        public void AddToList(Command command)
+        {
+            commander.Commands.Add(command);
+        }
+
         public Command GetCommandById(int Id)
         {
-            throw new NotImplementedException();
+            return commander.Commands.FirstOrDefault(x => x.Id == Id);
         }
 
         IEnumerable<Command> ICommanderRepo.GetAllCommands()

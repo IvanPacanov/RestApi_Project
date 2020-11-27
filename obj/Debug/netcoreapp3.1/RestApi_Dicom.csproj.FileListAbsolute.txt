@@ -6,7 +6,6 @@ E:\Projects\Server_RestApi\RestApiDicom\RestApi_Dicom\bin\Debug\netcoreapp3.1\Re
 E:\Projects\Server_RestApi\RestApiDicom\RestApi_Dicom\bin\Debug\netcoreapp3.1\RestApi_Dicom.runtimeconfig.dev.json
 E:\Projects\Server_RestApi\RestApiDicom\RestApi_Dicom\bin\Debug\netcoreapp3.1\RestApi_Dicom.dll
 E:\Projects\Server_RestApi\RestApiDicom\RestApi_Dicom\bin\Debug\netcoreapp3.1\RestApi_Dicom.pdb
-E:\Projects\Server_RestApi\RestApiDicom\RestApi_Dicom\obj\Debug\netcoreapp3.1\RestApi_Dicom.csprojAssemblyReference.cache
 E:\Projects\Server_RestApi\RestApiDicom\RestApi_Dicom\obj\Debug\netcoreapp3.1\RestApi_Dicom.AssemblyInfoInputs.cache
 E:\Projects\Server_RestApi\RestApiDicom\RestApi_Dicom\obj\Debug\netcoreapp3.1\RestApi_Dicom.AssemblyInfo.cs
 E:\Projects\Server_RestApi\RestApiDicom\RestApi_Dicom\obj\Debug\netcoreapp3.1\RestApi_Dicom.RazorTargetAssemblyInfo.cache
@@ -61,3 +60,11 @@ E:\Projects\Server_RestApi\RestApiDicom\RestApi_Dicom\bin\Debug\netcoreapp3.1\ru
 E:\Projects\Server_RestApi\RestApiDicom\RestApi_Dicom\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 E:\Projects\Server_RestApi\RestApiDicom\RestApi_Dicom\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 E:\Projects\Server_RestApi\RestApiDicom\RestApi_Dicom\obj\Debug\netcoreapp3.1\scopedcss\bundle\RestApi_Dicom.styles.css
+E:\Projects\Server_RestApi\RestApiDicom\RestApi_Dicom\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+E:\Projects\Server_RestApi\RestApiDicom\RestApi_Dicom\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+E:\Projects\Server_RestApi\RestApiDicom\RestApi_Dicom\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\Projects\Server_RestApi\RestApiDicom\RestApi_Dicom\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Projects\Server_RestApi\RestApiDicom\RestApi_Dicom\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Projects\Server_RestApi\RestApiDicom\RestApi_Dicom\obj\Debug\netcoreapp3.1\RestApi_Dicom.csprojAssemblyReference.cache
+E:\Projects\Server_RestApi\RestApiDicom\RestApi_Dicom\bin\Debug\netcoreapp3.1\ConvertToGrayScale.dll
+E:\Projects\Server_RestApi\RestApiDicom\RestApi_Dicom\bin\Debug\netcoreapp3.1\ConvertToGrayScale.xml

@@ -30,5 +30,14 @@ namespace RestApi_Dicom.Controllers
             var commandItem = _repository.GetCommandById(id);
             return Ok(commandItem);
         }
+
+        //POST api/commands
+        [HttpPost]
+        public ActionResult CreateCommand(Command imageCreate)
+        {
+            _repository.AddToList(imageCreate);
+            return Ok(imageCreate);
+
+        }
     }
 }

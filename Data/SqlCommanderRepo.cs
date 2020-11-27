@@ -12,6 +12,12 @@ namespace RestApi_Dicom.Data
         {
             _context = context;
         }
+
+        public void AddToList(Command imageCreate)
+        {
+            throw new System.NotImplementedException();
+        }
+
         public IEnumerable<Command> GetAllCommands()
         {
             return _context.Commands.ToList();     

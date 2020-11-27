@@ -7,5 +7,7 @@ namespace RestApi_Dicom.Data
     {
         IEnumerable<Command> GetAllCommands();
         Command GetCommandById(int Id);
+        void AddToList(Command imageCreate);
+
     }
 }
