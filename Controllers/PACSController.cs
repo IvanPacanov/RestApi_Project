@@ -16,7 +16,31 @@ namespace RestApi_Dicom.Controllers
         {
 
         }
+        [HttpGet]
+        [Route("tt")]
+        public ActionResult Test()
+        {   
+                return Ok("Cześć Eniu");
+        }
+        [HttpGet]
+        [Route("all")]
+        public ActionResult Find()
+        {
+            bool stan = false;
+            gdcm.DataSetArrayType wynik = new gdcm.DataSetArrayType();
+            try
+            {
+           //     stan = gdcm.CompositeNetworkFunctions.CFind("127.0.0.1", 10100, null, wynik, "KLIENT", "ARCHIWUM");
+            }
+            catch
+            {
+            }
+            if (stan)
+                return Ok(wynik);
+            else
+                return NotFound("Sorry");
 
+        }
         [HttpPost]
         [Route("find")]
         public ActionResult Find(BaseRootQuery zapytanie)

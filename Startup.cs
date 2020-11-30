@@ -21,6 +21,7 @@ namespace RestApi_Dicom
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            
         }
 
         public IConfiguration Configuration { get; }
@@ -28,6 +29,15 @@ namespace RestApi_Dicom
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+            services.AddCors(options => options.AddPolicy("ApiCorsPolicy", builder =>
+            {
+                builder.WithOrigins("http://localhost:5000").AllowAnyMethod().AllowAnyHeader();
+            }));
+
+            services.AddMvc(option => option.EnableEndpointRouting = false);
+             
+
             var connStr = Configuration.GetConnectionString("DefaultConnection");
             services.AddDbContext<CommanderContext>(opt =>
             opt.UseSqlServer(
@@ -50,6 +60,11 @@ namespace RestApi_Dicom
             app.UseHttpsRedirection();
 
             app.UseRouting();
+            app.UseCors(builder => builder
+     .AllowAnyOrigin()
+     .AllowAnyMethod()
+     .AllowAnyHeader());
+            app.UseMvc();
 
             app.UseAuthorization();
 

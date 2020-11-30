@@ -66,3 +66,5 @@ E:\Projects\Server_RestApi\RestApiDicom\RestApi_Dicom\obj\x64\Debug\netcoreapp3.
 E:\Projects\Server_RestApi\RestApiDicom\RestApi_Dicom\obj\x64\Debug\netcoreapp3.1\RestApi_Dicom.dll
 E:\Projects\Server_RestApi\RestApiDicom\RestApi_Dicom\obj\x64\Debug\netcoreapp3.1\RestApi_Dicom.pdb
 E:\Projects\Server_RestApi\RestApiDicom\RestApi_Dicom\obj\x64\Debug\netcoreapp3.1\RestApi_Dicom.genruntimeconfig.cache
+E:\Projects\Server_RestApi\RestApiDicom\RestApi_Dicom\bin\x64\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+E:\Projects\Server_RestApi\RestApiDicom\RestApi_Dicom\bin\x64\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
