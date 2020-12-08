@@ -35,10 +35,25 @@ namespace RestApi_Dicom
     }
     public class Program
     {
+        private static string ip;
         public static void Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run();
+            Console.WriteLine("Enter the IP with post <ip>:<port>");
+            ip = Console.ReadLine();
+            //"https://192.168.1.104:5000"
+            ip = "https://" + ip;
+            Console.Clear();
+            Console.WriteLine("Starting the server");
+            try
+            {
+                CreateHostBuilder(args).Build().Run();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
         }
+
 
         //        public static IHostBuilder CreateHostBuilder(string[] args) =>
         //            Host.CreateDefaultBuilder(args)
@@ -58,9 +73,14 @@ namespace RestApi_Dicom
                  {
                      webBuilder.UseKestrel();
                      webBuilder.UseContentRoot(Directory.GetCurrentDirectory());
-                     webBuilder.UseUrls("https://localhost:5000", "https://odin:5000", "https://192.168.1.100:5000");
+                     Console.WriteLine("Checking IP...");
+                     webBuilder.UseUrls("https://localhost:5000", "https://odin:5000", ip);
+                     Console.WriteLine("Ip Correct");
                      webBuilder.UseIISIntegration();
                      webBuilder.UseStartup<Startup>();
+
+                     Console.Clear();
+                     Console.WriteLine("Server started");
                  }).UseDefaultServiceProvider(options =>
                  options.ValidateScopes = false);
     }

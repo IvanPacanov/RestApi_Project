@@ -10,8 +10,9 @@ namespace RestApi_Dicom.Data
 {
     public interface ICommanderPACS
     {
-        ActionResult Store(TestObject store);
-        ActionResult Find(PatientModel patientModel);
+        byte[] TakeImage(SeriesModel seriesModel);
+        IEnumerable<SeriesModel> Series(PatientModel patientModel);
+        string Find(LoginModel patientModel);
 
     }
 }

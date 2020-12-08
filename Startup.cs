@@ -12,7 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using RestApi_Dicom.Data;
-using RestApi_Dicom.Models;
+using RestApi_Dicom.Data.PACSObjectJSON;
 
 namespace RestApi_Dicom
 {
@@ -39,14 +39,14 @@ namespace RestApi_Dicom
              
 
             var connStr = Configuration.GetConnectionString("DefaultConnection");
-            services.AddDbContext<CommanderContext>(opt =>
-            opt.UseSqlServer(
-                connStr));
+            //services.AddDbContext<CommanderContext>(opt =>
+            //opt.UseSqlServer(
+            //    connStr));
             //Configuration.GetConnectionString("CommanderConnection")));
-            services.AddTransient<ICommanderRepo, EFFProductRespository>();
+            services.AddTransient<ICommanderPACS, PACSCommanderClass>();
             services.AddHttpContextAccessor();
             services.AddControllers();            
-            services.AddScoped<ICommanderRepo, MockCommanderRepo>();
+            services.AddScoped<ICommanderPACS, PACSCommanderClass>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

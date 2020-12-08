@@ -68,3 +68,12 @@ E:\Projects\Server_RestApi\RestApiDicom\RestApi_Dicom\obj\x64\Debug\netcoreapp3.
 E:\Projects\Server_RestApi\RestApiDicom\RestApi_Dicom\obj\x64\Debug\netcoreapp3.1\RestApi_Dicom.genruntimeconfig.cache
 E:\Projects\Server_RestApi\RestApiDicom\RestApi_Dicom\bin\x64\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
 E:\Projects\Server_RestApi\RestApiDicom\RestApi_Dicom\bin\x64\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+E:\Projects\Server_RestApi\RestApiDicom\RestApi_Dicom\bin\x64\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+E:\Projects\Server_RestApi\RestApiDicom\RestApi_Dicom\bin\x64\Debug\netcoreapp3.1\System.Web.Http.dll
+E:\Projects\Server_RestApi\RestApiDicom\RestApi_Dicom\bin\x64\Debug\netcoreapp3.1\System.Web.Http.Owin.dll
+E:\Projects\Server_RestApi\RestApiDicom\RestApi_Dicom\bin\x64\Debug\netcoreapp3.1\Microsoft.Owin.dll
+E:\Projects\Server_RestApi\RestApiDicom\RestApi_Dicom\bin\x64\Debug\netcoreapp3.1\Microsoft.Owin.Diagnostics.dll
+E:\Projects\Server_RestApi\RestApiDicom\RestApi_Dicom\bin\x64\Debug\netcoreapp3.1\Microsoft.Owin.Host.HttpListener.dll
+E:\Projects\Server_RestApi\RestApiDicom\RestApi_Dicom\bin\x64\Debug\netcoreapp3.1\Microsoft.Owin.Hosting.dll
+E:\Projects\Server_RestApi\RestApiDicom\RestApi_Dicom\bin\x64\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+E:\Projects\Server_RestApi\RestApiDicom\RestApi_Dicom\bin\x64\Debug\netcoreapp3.1\Owin.dll

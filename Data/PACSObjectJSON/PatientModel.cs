@@ -8,5 +8,7 @@ namespace RestApi_Dicom.Data.PACSObjectJSON
     public class PatientModel
     {
         public string ID { get; set; }
+
+        public LoginModel loginModel { get; set; }
     }
 }
